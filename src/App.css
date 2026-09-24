@@ -12,7 +12,7 @@
 /* HEADER */
 
 .header {
-  height: 76px;
+  height: 100px;
   padding: 0 7%;
   display: flex;
   align-items: center;
@@ -110,7 +110,7 @@
 }
 
 .hero h2 span {
-  color: #b66e86;
+  color: #deaf9a;
 }
 
 .hero-text p {
@@ -777,4 +777,21 @@
     flex-direction: column;
     gap: 8px;
   }
+}
+
+.brand-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.brand-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }

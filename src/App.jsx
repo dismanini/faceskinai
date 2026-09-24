@@ -4,6 +4,7 @@ import {
   FilesetResolver,
 } from "@mediapipe/tasks-vision";
 import "./App.css";
+import logo from "./assets/iyoung-logo.png";
 
 const MEDIAPIPE_WASM =
   "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm";
@@ -697,16 +698,19 @@ function App() {
 
       <header className="header">
         <div className="brand">
-          <div className="brand-icon">
+          
+          {/* <div className="brand-icon" >
             ✦
-          </div>
+            
+          </div> */}
 
           <div>
-            <h1>FaceSkin AI</h1>
+            {/* <h1>FaceSkin AI</h1>
 
             <span>
               AI Face & Skin Analysis
-            </span>
+            </span> */}
+             <img src={logo} alt="iYoung Logo"   style={{ width: "200px" }} />
           </div>
         </div>
 
